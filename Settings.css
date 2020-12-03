@@ -1,0 +1,24 @@
+body{
+    background-image: url(https://external-preview.redd.it/SY-URtK-Mu3Z_m0vmw28zqhxbxKb3Tayyb0eqgsPIWM.jpg?width=960&crop=smart&auto=webp&s=1aa5375f64f1f63657c6f82cfedcd2c4614a4592);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#Container{
+    background-color: aquamarine;
+    opacity: 50%;
+    height: 1000px;
+    width: 750px;
+    margin:0 auto;
+    
+}
+
+#baneer{
+    background-color: blue;
+    opacity: 50%;
+    height: 150px;
+    width: 100%;
+    margin-top: 0px;
+    position: relative;
+
+}
