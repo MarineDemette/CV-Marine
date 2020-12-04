@@ -1,24 +1,91 @@
-body{
+body {
     background-image: url(https://external-preview.redd.it/SY-URtK-Mu3Z_m0vmw28zqhxbxKb3Tayyb0eqgsPIWM.jpg?width=960&crop=smart&auto=webp&s=1aa5375f64f1f63657c6f82cfedcd2c4614a4592);
     background-size: 100%;
     background-attachment: fixed;
 }
 
-#Container{
-    background-color: aquamarine;
-    opacity: 50%;
-    height: 1000px;
+#Container {
+    background-color: rgba(127, 255, 212, 0.705);
     width: 750px;
-    margin:0 auto;
+    margin: 0 auto;
+
+}
+
+#baneer {
+    background-color: rgba(0, 0, 255, 0.753);
+    text-align: center;
+
+}
+
+ul {
+    color: rgb(200, 255, 0);
+    list-style-type: none;
+    align-self: auto;
     
 }
 
-#baneer{
-    background-color: blue;
-    opacity: 50%;
-    height: 150px;
-    width: 100%;
-    margin-top: 0px;
-    position: relative;
+li{
+    display: inline;
+    text-align: center;
+    margin-right: 10px;
+    
+}
+
+h1 {
+    color: rgb(195, 0, 255);
+    font-size: 75px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+}
+
+section#profil p{
+    color: rgb(22, 42, 95);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-style: oblique;
 
 }
+
+section#profil h2{
+    color: rgb(27, 7, 139);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+
+nav a{
+    font-size: 30px;
+    color: rgb(14, 121, 4);
+}
+
+a:visited{
+    color: rgb(131, 8, 131);
+  
+}
+
+a:hover{
+    color: orange;
+}
+
+nav a:hover {
+    letter-spacing: 7px;
+    font-size: 50px;
+}
+section#compt{
+    color: rgb(255, 38, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+section#exp{
+    color: rgb(139, 19, 79);
+    font-family: fantasy;
+    text-align: center;
+}
+
+h2{
+    text-decoration: underline;
+}
+
